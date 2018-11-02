@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <meta charset="utf-8">
+    <meta http-equiv=”Content-Type” content=”text/html; charset=UTF-8”/>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="copyright" content="What Suits You? is owned by Conor Curley and Michael Munnelly of 2018.">
+    <meta name="description" content="What Suits You? is a website containing a selection of carefully curated quizzes that help people choose a product that fits their needs. The person looking for a product enters the homepage, selects a quiz, and after a few short clicks will be presented a product that ‘Suits them’. ">
+    <meta name="keywords" content="quiz, quizzes, what suits, what suits you, What Suits You?, find a computer, find a pair of shoes, find an insurance package, find a phone, computers, phones, insurance, quizzes, what, quiz website">
+    <meta name="DC.title" content="What Suits You?">
+    <link rel="stylesheet" href="https://use.typekit.net/evz2pch.css">
+    <link rel="canonical" href="https://whatsuitsyou.ie" />
+    <link rel="icon" href="../img/tablogo.png">
+    <link rel="shortcut icon" href="../img/tablogo.png" type="image/x-icon">
+    <title>What Suits You? - Find the perfect product for you</title>
+    <link rel="stylesheet" href="../css/bulma.css">
+    <link rel="stylesheet" href="../css/shoes.css">
+    <script src="scripts/typed.js"></script>
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.13/css/all.css" integrity="sha384-DNOHZ68U8hZfKXOrtjWvjxusGo9WQnrNx2sqG0tfsghAvtVlRW3tvkXWZh58N9jp" crossorigin="anonymous">
+    <script src="scripts/jquery.visible.min.js"></script>
+    <script src="scripts/fullclip.js"></script>
+    <!-- Global site tag (gtag.js) - Google Analytics -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=UA-114335728-1"></script>
+    <script src="js/appear/jquery.appear.js"></script>
+    <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag(){dataLayer.push(arguments);}
+      gtag('js', new Date());
+
+      gtag('config', 'UA-114335728-1');
+    </script>
+  </head>
+  <body>
+      <div class="hero is-fullheight redback">
+        <div class="hero-body">
+          <div class="contentbox">
+            <h2 class="gotit">Alright!</h2>
+            <h2 class="productname">Let's find you some shoes.</h2>
+            <div class="productinfo divpr">
+              <div class="content largecon">
+                <p>This is a WSY Quiz that will help you find a new pair of shoes. It is created in a format similar to a messenger for ease-of-use. You'll find the responses for the questions along the bottom of your screen, there's no need to type. <br> </p>
+                <p>Although the products we reccomend fit perfectly to your needs, we recommend you look at the shoes related to the one we have selected for you in the 'related products' section. </p>
+                <p>And you're good to go! Click the let's go button to get started. And by the way, if something bad happens, let us know in the contact section.</p>
+              </div>
+            </div>
+            <a href="shoes.html" class="buylink1">
+              <div class="buynow buyop1">
+                Let's Go
+              </div>
+            </a>
+            <div style="margin-top:1rem;">
+              <script async src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+              <!-- WSYbottomads -->
+              <ins class="adsbygoogle"
+                   style="display:block"
+                   data-ad-client="ca-pub-5251338059466199"
+                   data-ad-slot="6719038949"
+                   data-ad-format="auto"></ins>
+              <script>
+              (adsbygoogle = window.adsbygoogle || []).push({});
+              </script>
+            </div>
+          </div>
+        </div>
+      </div>
+    <script src="https://www.gstatic.com/firebasejs/5.0.4/firebase.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/5.0.4/firebase-app.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/5.0.4/firebase-database.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/5.0.4/firebase-firestore.js"></script>
+    <script>
+    // Initialize Firebase
+    var config = {
+      apiKey: "AIzaSyAM7hcUt_6-PwQaXQ5RgEQroRQncRTYyVY",
+      authDomain: "what-suits-you.firebaseapp.com",
+      databaseURL: "https://what-suits-you.firebaseio.com",
+      projectId: "what-suits-you",
+      storageBucket: "what-suits-you.appspot.com",
+      messagingSenderId: "1041979605867"
+    };
+    firebase.initializeApp(config);
+    var firestore = firebase.firestore();
+    </script>
+    <script src="../js/shoes.js"></script>
+  </body>
+</html>
+
+<!--
+<div class="finalcard">
+  <div class="hero is-medium">
+    <div class="hero-body">
+      <div class="container">
+        <div class="columns">
+          <div class="column is-4">
+            <img src="" class="productimage" alt="">
+            <hr>
+            <a href="" class="buylink1">
+              <div class="buynow buyop1">
+
+              </div>
+            </a>
+            <a href="" class="buylink2">
+              <div class="buynow buyop2">
+
+              </div>
+            </a>
+          </div>
+          <div class="column is-1">
+
+          </div>
+          <div class="column">
+            <div class="quiztitle" style="color: #4a4a4a !important">
+
+            </div>
+            <p class="description"></p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div> -->

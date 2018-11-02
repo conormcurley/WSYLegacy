@@ -1,0 +1,416 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <meta charset="utf-8">
+    <meta http-equiv=”Content-Type” content=”text/html; charset=UTF-8”/>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="copyright" content="What Suits You? is owned by Conor Curley and Michael Munnelly of 2018.">
+    <meta name="description" content="What Suits You? is a website containing a selection of carefully curated quizzes that help people choose a product that fits their needs. The person looking for a product enters the homepage, selects a quiz, and after a few short clicks will be presented a product that ‘Suits them’. ">
+    <meta name="keywords" content="quiz, quizzes, what suits, what suits you, What Suits You?, find a computer, find a pair of shoes, find an insurance package, find a phone, computers, phones, insurance, quizzes, what, quiz website">
+    <meta name="DC.title" content="What Suits You?">
+    <link rel="stylesheet" href="https://use.typekit.net/evz2pch.css">
+    <link rel="canonical" href="https://whatsuitsyou.ie" />
+    <link rel="icon" href="../img/tablogo.png">
+    <link rel="shortcut icon" href="../img/tablogo.png" type="image/x-icon">
+    <title>What Suits You? - Find the perfect product for you</title>
+    <link rel="stylesheet" href="../css/bulma.css">
+    <link rel="stylesheet" href="../css/shoes.css">
+    <script src="scripts/typed.js"></script>
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.13/css/all.css" integrity="sha384-DNOHZ68U8hZfKXOrtjWvjxusGo9WQnrNx2sqG0tfsghAvtVlRW3tvkXWZh58N9jp" crossorigin="anonymous">
+    <script src="scripts/jquery.visible.min.js"></script>
+    <script src="scripts/fullclip.js"></script>
+    <!-- Global site tag (gtag.js) - Google Analytics -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=UA-114335728-1"></script>
+    <script src="js/appear/jquery.appear.js"></script>
+    <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag(){dataLayer.push(arguments);}
+      gtag('js', new Date());
+
+      gtag('config', 'UA-114335728-1');
+    </script>
+  </head>
+  <body>
+    <div class="main">
+      <div class="topbar">
+        <div class="container">
+          <div class="columns">
+            <div class="column is-1 lefticonbox">
+              <a href="https://whatsuitsyou.ie"><i class="fas fa-home topbaricon"></i></a>
+            </div>
+            <div class="column">
+              <div class="content has-text-centered">
+                <h1 class="quiztitle">Shoes</h1>
+              </div>
+            </div>
+            <div class="column is-1 righticonbox">
+              <i class="fas fa-info-circle topbaricon right info"></i>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="messagesec">
+        <div class="container">
+          <div class="messages">
+            <div class="messagecontainer">
+              <div class="message compmessage welcome">
+                Hey there! Welcome to the WSY shoes quiz. We're going to ask you a couple of questions to figure out what you need.
+              </div>
+            </div>
+            <div class="messagecontainer">
+              <div class="message compmessage ready">
+                 Ready?
+              </div>
+            </div>
+            <div class="messagecontainer">
+              <div class="message compmessage q1">
+                 Okay, what do you want this pair of shoes for?
+              </div>
+            </div>
+            <div class="messagecontainer">
+              <div class="message usermessage o1">
+
+              </div>
+            </div>
+            <div class="messagecontainer">
+              <div class="message compmessage q2">
+                Great! How much do you want to pay?
+              </div>
+            </div>
+            <div class="messagecontainer">
+              <div class="message usermessage o2">
+
+              </div>
+            </div>
+            <div class="messagecontainer">
+              <div class="message compmessage q3">
+                Good Choice, how old are you.
+              </div>
+            </div>
+            <div class="messagecontainer">
+              <div class="message usermessage o3">
+
+              </div>
+            </div>
+            <div class="messagecontainer">
+              <div class="message compmessage q4">
+                Fantastic. If you had to choose, what would be the most important aspect of the shoe for you?
+              </div>
+            </div>
+            <div class="messagecontainer">
+              <div class="message usermessage o4">
+
+              </div>
+            </div>
+            <div class="messagecontainer">
+              <div class="message compmessage q5">
+                Finally, are you male or female? In the case of other, select the style you prefer the best.
+              </div>
+            </div>
+            <div class="messagecontainer">
+              <div class="message usermessage o5">
+
+              </div>
+            </div>
+            <div class="messagecontainer">
+              <div class="message compmessage done">
+                All done, just wait a second so we can find a product for you.
+              </div>
+            </div>
+        </div>
+      </div>
+    </div>
+      <div class="responsesec">
+        <div class="container">
+          <div class="question1options options">
+            <div class="option q1o q1o1">
+              For casual wear
+            </div>
+            <div class="option q1o q1o2">
+              For support
+            </div>
+            <div class="option q1o q1o3">
+              For a night out
+            </div>
+            <div class="option q1o q1o5">
+              For walking or running
+            </div>
+          </div>
+
+          <div class="question2options options">
+            <div class="option q2o q2o1">
+              €30-€50
+            </div>
+            <div class="option q2o q2o2">
+              €50-€70
+            </div>
+            <div class="option q2o q2o3">
+              €70-€100
+            </div>
+            <div class="option q2o q2o4">
+              €100-€120
+            </div>
+            <div class="option q2o q2o5">
+              €120-€150
+            </div>
+            <div class="option q2o q2o6">
+              €150-€180
+            </div>
+            <div class="option q2o q2o7">
+              €180+
+            </div>
+          </div>
+
+          <div class="question3options options">
+            <div class="option q3o q3o1">
+              10 - 14
+            </div>
+            <div class="option q3o q3o2">
+              14 - 22
+            </div>
+            <div class="option q3o q3o3">
+              22 - 30
+            </div>
+            <div class="option q3o q3o4">
+              30 - 50
+            </div>
+            <div class="option q3o q3o5">
+              Not willing to say.
+            </div>
+          </div>
+
+          <div class="question4options options">
+            <div class="option q4o q4o1">
+              Comfort
+            </div>
+            <div class="option q4o q4o2">
+              Support
+            </div>
+            <div class="option q4o q4o3">
+              Looks
+            </div>
+            <div class="option q4o q4o4">
+              The materials they're made with
+            </div>
+          </div>
+
+          <div class="question5options options">
+            <div class="option q5o q5o1">
+              Male
+            </div>
+            <div class="option q5o q5o2">
+              Female
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="help">
+      <div class="containerhelp">
+        <div class="button is-danger back is-inverted">
+          < Back
+        </div>
+        <div class="content needhelp is-medium">
+          <h1 class="helptitle">Help</h1>
+          <h2>What do you need these shoes for?</h2>
+          <h3>Casual Wear</h3>
+          <p>This option is for people who need shoes for doing every day things like going to work, walking, shopping etc.</p>
+          <h3>Support</h3>
+          <p>This option is for people who find regular shoes uncomfortable, or who have a medical condition that requires shoes that provide more support than others.</p>
+          <h3>Night Out</h3>
+          <p>This option is for people who want a good looking pair of shoes for the occasional night out.</p>
+          <h3>Running</h3>
+          <p>This option is for people who need shoes for running. These are usually sneakers and are made to withstand the wear and tear of everyday running.</p>
+          <div style="margin-top:1rem;">
+            <script async src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+            <!-- WSYbottomads -->
+            <ins class="adsbygoogle"
+                 style="display:block"
+                 data-ad-client="ca-pub-5251338059466199"
+                 data-ad-slot="6719038949"
+                 data-ad-format="auto"></ins>
+            <script>
+            (adsbygoogle = window.adsbygoogle || []).push({});
+            </script>
+          </div>
+        </div>
+
+        <div class="content costhelp is-medium">
+          <h1 class="helptitle">Help</h1>
+          <h2>How much would you like to spend?</h2>
+          <p>This one is pretty simple. Choose the amount that you would prefer to spend on a pair of shoes.</p>
+          <hr>
+          <h3>€30-€50</h3>
+          <p>The cheapest option for a pair of shoes. Very cheap quality.</p>
+          <h3>€50-€70</h3>
+          <p>Getting there. Usually a good price to pay for a pair of quality childrens shoes.</p>
+          <h3>€70-€100</h3>
+          <p>The standard price to pay for a good pair of sneakers from brands like Nike and adidas.</p>
+          <h3>€100-€120</h3>
+          <p>Slighly above standard quality and aesthetics. Normal price for popular shoes from brands like Nike or adidas.</p>
+          <h3>€120-€150</h3>
+          <p>Above average price. Usually specialised shoes, designed to be more comfortable for activities like running.</p>
+          <h3>€150-€180 & €180+</h3>
+          <p>Very high price for very high quality shoes. Usually designer of strongly sought after.</p>
+          <div style="margin-top:1rem;">
+            <script async src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+            <!-- WSYbottomads -->
+            <ins class="adsbygoogle"
+                 style="display:block"
+                 data-ad-client="ca-pub-5251338059466199"
+                 data-ad-slot="6719038949"
+                 data-ad-format="auto"></ins>
+            <script>
+            (adsbygoogle = window.adsbygoogle || []).push({});
+            </script>
+          </div>
+        </div>
+
+        <div class="content agehelp is-medium">
+          <h1 class="helptitle">Help</h1>
+          <h2>What age are you?</h2>
+          <p>Why do we ask this? As you age, different factors in shoes become more important. We ask for your age to determine what the factors are.</p>
+          <hr>
+          <em>We don't store this information.</em>
+        </div>
+
+        <div class="content factorhelp is-medium">
+          <h1 class="helptitle">Help</h1>
+          <h2>What is the most important aspect of a shoe for you?</h2>
+          <p>We ask this to determine overall what you want in a shoe. Similar to use case.</p>
+          <hr>
+          <h3>Comfort</h3>
+          <p>Some people just want their shoes to be comfortable. Select this option if this is you.</p>
+          <h3>Support</h3>
+          <p>This option is for people who find regular shoes uncomfortable, or who have a medical condition that requires shoes that provide more support than others.</p>
+          <h3>Looks</h3>
+          <p>If you care about how stylish the shoes are on your feet, choose this option.</p>
+          <h3>Materials</h3>
+          <p>If you care about how the materials used to make these shoes impact the enviroment, choose this option.</p>
+          <div style="margin-top:1rem;">
+            <script async src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+            <!-- WSYbottomads -->
+            <ins class="adsbygoogle"
+                 style="display:block"
+                 data-ad-client="ca-pub-5251338059466199"
+                 data-ad-slot="6719038949"
+                 data-ad-format="auto"></ins>
+            <script>
+            (adsbygoogle = window.adsbygoogle || []).push({});
+            </script>
+          </div>
+        </div>
+
+        <div class="content genderhelp is-medium">
+          <h1 class="helptitle">Help</h1>
+          <h2>What gender are you?</h2>
+          <p>We ask this to determine what style of shoe you need. If you prefer the other gender's style of shoe, feel free to select that too. If you don't identify, feel free to select any gender, or the one you prefer the most.</p>
+          <hr>
+          <em>We don't store this data.</em>
+          <div style="margin-top:1rem;">
+            <script async src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+            <!-- WSYbottomads -->
+            <ins class="adsbygoogle"
+                 style="display:block"
+                 data-ad-client="ca-pub-5251338059466199"
+                 data-ad-slot="6719038949"
+                 data-ad-format="auto"></ins>
+            <script>
+            (adsbygoogle = window.adsbygoogle || []).push({});
+            </script>
+          </div>
+        </div>
+        <div class="button is-danger back">
+          < Back
+        </div>
+      </div>
+    </div>
+
+    <div class="answer">
+      <div class="hero is-fullheight redback">
+        <div class="hero-body">
+          <div class="contentbox">
+            <img src="" class="productimage" alt="">
+            <h2 class="gotit">Got it.</h2>
+            <h2 class="productname"></h2>
+            <p class="productinfo"></p>
+            <a href="" class="buylink1">
+              <div class="buynow buyop1">
+                Buy Now
+              </div>
+            </a>
+            <div class="content has-text centered;">
+              <em><i class="fas fa-exclamation-circle"></i> Unfortunately, due to a problem with our databases, this link may take you to a product of the wrong gender. If this happens just copy the product name and paste it into the shop's searchbar with the correct gender added.</em>
+            </div>
+            <div style="margin-top:1rem;">
+              <script async src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+              <!-- WSYbottomads -->
+              <ins class="adsbygoogle"
+                   style="display:block"
+                   data-ad-client="ca-pub-5251338059466199"
+                   data-ad-slot="6719038949"
+                   data-ad-format="auto"></ins>
+              <script>
+              (adsbygoogle = window.adsbygoogle || []).push({});
+              </script>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <script src="https://www.gstatic.com/firebasejs/5.0.4/firebase.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/5.0.4/firebase-app.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/5.0.4/firebase-database.js"></script>
+        <script src="https://www.gstatic.com/firebasejs/5.2.0/firebase-firestore.js"></script>
+    <script>
+    // Initialize Firebase
+    var config = {
+      apiKey: "AIzaSyAM7hcUt_6-PwQaXQ5RgEQroRQncRTYyVY",
+      authDomain: "what-suits-you.firebaseapp.com",
+      databaseURL: "https://what-suits-you.firebaseio.com",
+      projectId: "what-suits-you",
+      storageBucket: "what-suits-you.appspot.com",
+      messagingSenderId: "1041979605867"
+    };
+    firebase.initializeApp(config);
+    var firestore = firebase.firestore();
+    </script>
+    <script src="../js/shoes.js"></script>
+  </body>
+</html>
+
+<!--
+<div class="finalcard">
+  <div class="hero is-medium">
+    <div class="hero-body">
+      <div class="container">
+        <div class="columns">
+          <div class="column is-4">
+            <img src="" class="productimage" alt="">
+            <hr>
+            <a href="" class="buylink1">
+              <div class="buynow buyop1">
+
+              </div>
+            </a>
+            <a href="" class="buylink2">
+              <div class="buynow buyop2">
+
+              </div>
+            </a>
+          </div>
+          <div class="column is-1">
+
+          </div>
+          <div class="column">
+            <div class="quiztitle" style="color: #4a4a4a !important">
+
+            </div>
+            <p class="description"></p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div> -->

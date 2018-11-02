@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <link href="https://fonts.googleapis.com/css?family=Roboto:400,500" rel="stylesheet">
+    <title>Create An Account - Businesses</title>
+    <link rel="icon" href="img/tablogo.png">
+    <link rel="shortcut icon" href="img/tablogo.png" type="image/x-icon">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="css/bulma.css">
+    <link rel="stylesheet" href="css/signupBusiness.css">
+    <script src="https://code.jquery.com/jquery-3.3.1.min.js" integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8=" crossorigin="anonymous"></script>
+
+  </head>
+  <body>
+    <div class="hero is-fullheight alert">
+      <div class="hero-body">
+        <div class="loaderMaterial">
+          <div class="lds-roller"><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div></div>
+        </div>
+        <div class="finishedPane">
+          <p class="materialOverline">Sign up complete</p>
+          <h1 class="materialHeader">You're all set!</h1>
+          <p class="materialText">We'll send you an email when we've verified your account and are ready to get started. <br> Thanks for taking the time to register with us today.</p>
+          <a href="index.html"><button type="button" class="materialButton" name="button">Home</button></a>
+        </div>
+      </div>
+    </div>
+
+
+    <img src="img/leaf.png" class="cornerImage" alt="">
+    <hero class="hero is-fullheight">
+      <div class="hero-body">
+          <div class="smallerContainer">
+            <p class="materialOverline">early registration beta programme</p>
+            <h1 class="materialHeader">Create An Account</h1>
+            <p class="materialText">Welcome to What Suits You Business Services. This form will confirm your interest in our service and grant you access to our beta programme.</p>
+
+            <!-- name -->
+
+            <div class="columns">
+              <div class="column">
+                <p class="materialOverline grey">First Name</p>
+                <input type="text" name="" class="materialInput" id="firstName" value="">
+              </div>
+              <div class="column">
+                <p class="materialOverline grey">Last Name</p>
+                <input type="text" name="" class="materialInput" id="lastName" value="">
+              </div>
+            </div>
+
+            <!-- Business Name -->
+            <p class="materialOverline grey">Business Name</p>
+            <input type="text" name="" class="materialInput single" id="businessName" value="">
+
+            <!-- Email -->
+            <p class="materialOverline grey">Business Email</p>
+            <input type="text" name="" class="materialInput single" id="businessEmail" value="">
+
+            <div class="columns">
+              <div class="column">
+                <p class="materialOverline grey">Password</p>
+                <input type="password" name="" class="materialInput" id="password" value="">
+                <div class="tooltip" id="toolPass">
+                  <p class="tooltipText"></p>
+                </div>
+              </div>
+              <div class="column">
+                <p class="materialOverline grey">Confirm Password</p>
+                <input type="password" name="" onkeyup="checkPassword()" class="materialInput" id="confirmPassword" value="">
+              </div>
+            </div>
+
+            <!-- adress line one two -->
+
+            <div class="columns">
+              <div class="column">
+                <p class="materialOverline grey">Address Line One</p>
+                <input type="text" name="" class="materialInput" id="addressLineOne" value="">
+              </div>
+              <div class="column">
+                <p class="materialOverline grey">Address Line Two</p>
+                <input type="text" name="" class="materialInput"  id="addressLineTwo" value="">
+              </div>
+            </div>
+
+            <!-- address city and eircode -->
+
+            <div class="columns">
+              <div class="column">
+                <p class="materialOverline grey">Town / City</p>
+                <input type="text" name="" class="materialInput" id="town" value="">
+              </div>
+              <div class="column">
+                <p class="materialOverline grey">EirCode</p>
+                <input type="text" name="" class="materialInput" id="eircode" value="">
+              </div>
+            </div>
+
+
+
+            <!-- submit button -->
+
+            <button type="button" class="materialButton" id="submitButton" onclick="addUser()" name="button">Submit</button>
+
+
+          </div>
+
+        </div>
+    </hero>
+
+    <script src="https://www.gstatic.com/firebasejs/5.4.2/firebase.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/5.4.1/firebase-app.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/5.4.1/firebase-auth.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/5.4.1/firebase-firestore.js"></script>
+    <script src="js/init_auth.js"></script>
+    <script src="js/authenticate.js"></script>
+
+  </body>
+</html>

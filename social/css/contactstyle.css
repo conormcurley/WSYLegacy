@@ -1,0 +1,316 @@
+.navbar{
+  height:60px;
+  position: fixed;
+  width:100%;
+  z-index: 100;
+}
+
+.navbar-item img{
+  max-height:1.8rem;
+}
+
+.button{
+  margin:12px .7rem;
+  padding:0px 2rem;
+}
+
+a{
+  color:#363636;
+}
+
+.line{
+  margin-top:10px;
+}
+
+.navbar-item{
+  padding-left: 30px;
+  padding-right: 30px;
+  font-size:1.3em;
+  font-weight: 400;
+}
+
+.is-wsyblue{
+  background-color: #FF4545;
+}
+
+.is-wsybluetext{
+  color: #336FFD;
+  padding-right: 20px;
+}
+
+.is-wsyblue h1{
+  color:white ;
+  font-weight: 500;
+}
+
+.is-wsyblue h2{
+  color:white ;
+}
+
+.card{
+  border-radius: 0;
+}
+
+.menu{
+  margin: 10px;
+}
+
+.padder{
+  padding-top:20px;
+}
+
+.title{
+  font-weight: 500;
+}
+
+.wrappertext{
+  margin:10px;
+}
+
+.paragraph{
+  display: inline-block;
+  padding-left:20px;
+}
+
+.light{
+  margin-bottom:0px;
+}
+
+p{
+  margin-bottom:20px;
+  margin-left: 20px;
+}
+
+body{
+  overflow-x:hidden;
+}
+
+@keyframes bob {
+  0%{
+    margin-top: 4px;
+  }
+  50%{
+    margin-top: 12px;
+  }
+  100%{
+    margin-top: 4px;
+  }
+}
+
+@keyframes fadein {
+  0%{
+    background:#939393
+  }
+  100%{
+    background:linear-gradient(to right, #396afc, #2948ff);
+  }
+}
+
+@keyframes fadeout {
+  0%{
+    background:linear-gradient(to right, #396afc, #2948ff);
+  }
+  100%{
+    background:#939393
+  }
+}
+
+.circle{
+  height:100px;
+  width:100px;
+  border-radius: 50%;
+  background:white;
+  margin-top:-50px;
+  margin-left:80%;
+  cursor:pointer;
+}
+
+.fa-angle-down{
+  margin-left:24px;
+  margin-top:8px;
+  background: linear-gradient(to right, #396afc, #2948ff);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  animation: bob 2s infinite;
+  z-index: 101;
+}
+
+*:focus {
+    outline: none;
+}
+
+.bottom{
+  display: inline-block;
+  width:100%;
+  margin-top:20px;
+  margin-bottom:70px;
+}
+
+.column{
+  margin:10px;
+}
+
+.normal{
+  height:60px;
+  border:none;
+  background-color: #fff;
+  font-size: 1.5em;
+  transition: all 1s linear;
+  overflow:hidden !important;
+  display: block;
+}
+
+.fifty{
+  width:47.5%;
+  float:left;
+}
+
+.fiftypadding{
+  margin-right:5%;
+}
+
+.hundred{
+  width:100%;
+}
+
+.borderbottom{
+  float:left;
+  background: #939393;
+  height:3px;
+  width:47.5%;
+}
+.borderbottomfull{
+  float:left;
+  background-color: #939393;
+  height:3px;
+  width:100%;
+}
+
+.divblock{
+  clear: both;
+  height:50px;
+  width:100px;
+}
+
+.title2{
+  color:#939393;
+  font-size: 1.7em;
+  font-weight: 500;
+}
+.subtitle2{
+  color:#939393;
+  font-size: 1.5em;
+}
+
+.deftext{
+  color:#939393;
+  font-size:1.3em;
+}
+
+.buttonsubmit{
+  width:100%;
+  height: 60px;
+  border:3px solid #939393;
+  text-align: center;
+  line-height: 60px;
+  vertical-align: middle;
+  font-size: 1.5em;
+  cursor: pointer;
+  background: transparent;
+  color:#939393;
+}
+
+/*.ink styles - the elements which will create the ripple effect. The size and position of these elements will be set by the JS code. Initially these elements will be scaled down to 0% and later animated to large fading circles on user click.*/
+.ink {
+	display: block; position: absolute;
+	background:linear-gradient(to right, #396afc, #2948ff);
+	border-radius: 100%;
+	transform: scale(0);
+}
+/*animation effect*/
+.ink.animate {animation: ripple 0.3s linear;}
+@keyframes ripple {
+	/*scale the element to 250% to safely cover the entire link and fade it out*/
+	100% {opacity: 0; transform: scale(2.5);}
+}
+
+@media only screen
+  and (min-device-width: 0px)
+  and (max-device-width: 950px)
+  and (orientation: portrait) {
+    .is-medium{
+      padding-top: 15vh;
+      padding-bottom: 15vh;
+    }
+
+    .circle{
+      margin-left:calc(50% - 50px)
+    }
+
+    .title{
+      font-size: 3em;
+      text-align: center;
+    }
+    .subtitle{
+      font-size: 2em;
+      text-align: center;
+    }
+    .columns{
+      width:100%;
+    }
+    .column{
+      float: none;
+      flex: none;
+      width:100% !important;
+    }
+    .divblocker{
+      height:20px;
+    }
+    .title2{
+      font-size: 2.7em;
+      text-align: center;
+    }
+    .subtitle2{
+      font-size: 2.2em;
+      text-align: center;
+    }
+    .deftext{
+      font-size: 1.5em;
+      text-align: center;
+    }
+    .normal{
+      height:80px;
+      font-size: 1.5em;
+    }
+    .done{
+      font-size: 3em;
+    }
+    .redirect{
+      font-size: 1.5em;
+    }
+}
+
+.greybackground{
+  background:#292E3A;
+  height:100vh;
+  width:100%;
+}
+
+.orange{
+  background:linear-gradient(to right, #396afc, #2948ff);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  text-align: center;
+  font-weight:bold;
+  margin-bottom:-40px;
+}
+
+.redirect{
+  text-align: center;
+}
+
+.clickhere{
+  border-bottom:3px solid transparent;
+  border-image:linear-gradient(to right, #396afc, #2948ff);
+  border-image-slice: 1;
+}

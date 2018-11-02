@@ -1,0 +1,20 @@
+.image {
+  background-image: url("/img/meeting.jpg");
+background-size:cover;
+  width:100%;
+-webkit-clip-path: polygon(0 0, 100% 0, 100% 86%, 0 62%);
+clip-path: polygon(0 0, 100% 0, 100% 86%, 0 62%);
+}
+
+#about-text {
+  color: white;
+  font-size: 8em;
+  text-shadow: 5px 8px #373737;
+  padding-top: 110px;
+}
+
+#about-text1 {
+  color: white;
+  padding-top: 20px;
+}
+

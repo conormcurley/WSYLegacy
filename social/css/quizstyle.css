@@ -1,0 +1,251 @@
+body{
+  font-family: 'Roboto', sans-serif;
+}
+
+.lds-ring {
+  display: inline-block;
+  position: relative;
+  width: 96px;
+  height: 96px;
+}
+.lds-ring div {
+  box-sizing: border-box;
+  display: block;
+  position: absolute;
+  width: 74px;
+  height: 74px;
+  margin: 6px;
+  border: 6px solid #fff;
+  border-radius: 50%;
+  animation: lds-ring 1.2s cubic-bezier(0.5, 0, 0.5, 1) infinite;
+  border-color: #fff transparent transparent transparent;
+}
+.lds-ring div:nth-child(1) {
+  animation-delay: -0.45s;
+}
+.lds-ring div:nth-child(2) {
+  animation-delay: -0.3s;
+}
+.lds-ring div:nth-child(3) {
+  animation-delay: -0.15s;
+}
+@keyframes lds-ring {
+  0% {
+    transform: rotate(0deg);
+  }
+  100% {
+    transform: rotate(360deg);
+  }
+}
+
+.nunito{
+  font-family: 'Nunito', sans-serif;
+  font-size: 1.3em;
+}
+
+
+.overlay{
+  background: #3498DB;
+  background-size: cover;
+  width:100%;
+  height:100vh;
+  z-index: 100;
+  transition: 1s all;
+  position: fixed;
+}
+
+.white{
+  color:white !important;
+}
+
+.wsy-blue{
+  background-color: #3498DB !important;
+}
+
+.blue{
+  color: #3498DB !important;
+}
+
+.navbar-center{
+  margin:0 auto;
+}
+
+.navbar-center .navbar-item{
+  float: right;
+  height:100%;
+  padding: 0 3rem;
+  font-size: 1.2em;
+  color: #1F618D;
+  transition: .1s all;
+}
+
+.navbar-center .navbar-item:hover{
+  border-bottom: #1F618D 4px solid;
+  cursor: pointer;
+}
+
+.is-active{
+  color: white !important;
+  border-bottom: white 4px solid !important;
+  font-weight: 400;
+}
+
+.smaller-container{
+  margin:0 auto;
+  margin-top:1rem;
+  max-width: 1200px;
+  padding-left: 1rem;
+  padding-right: 1rem;
+}
+
+.title:not(:last-child), .subtitle:not(:last-child) {
+    margin-bottom: 0rem;
+}
+
+.is-6{
+  color:#d3d3d3;
+}
+
+.help-content{
+  font-size: 1.3em;
+  padding-top:1rem;
+  padding-bottom:1rem;
+}
+
+.card-content{
+}
+
+.margin{
+  margin-right: .5rem !important;
+}
+
+
+.circle{
+  width: 85px;
+  height: 85px;
+  border-radius: 50%;
+  background-color: #3498DB;
+  position: fixed;
+  bottom: 5vh;
+  right:2.5%;
+  transition: all .1s;
+}
+
+.circle:hover{
+  background-color: #1F618D;
+  cursor: pointer;
+}
+
+.fa-plus{
+  color:white;
+  padding-left: 23px;
+  padding-top: 22px;
+}
+
+.over{
+  overflow: hidden;
+  position: relative;
+}
+
+.over-inner{
+  height: 100%;
+  width:100%;
+  position: absolute;
+  z-index: 1;
+  top: 0;
+  padding:15px 15px;
+  transition: 0.1s;
+  background:rgba(52, 152, 219, 0.6);
+  margin-top: -100%;
+}
+
+.card:hover .over-inner{
+  margin-top: 0;
+}
+
+#overbutton{
+  border-radius: 0px !important;
+  border: #fff solid 2px !important;
+  padding:1.5rem 3rem;
+  position: absolute;
+  top:calc(50% - 20px);
+  left: calc(50% - 94px);
+}
+
+.app{
+}
+
+.bottompad{
+  width:100%;
+  height: 1.5rem;
+}
+
+.searchbar{
+  margin-bottom:1rem;
+  width:100%;
+  height:50px;
+  border:none;
+  border-bottom: #d3d3d3 solid 3px;
+  color:#757575;
+  font-size: 1.3em;
+  transition: .2s all;
+}
+
+.searchbar:focus{
+  border-bottom: #3498DB solid 3px;
+  color:#757575;
+  outline: none;
+}
+
+.load{
+  transition: .3s all;
+}
+
+.blog{
+  display:none;
+}
+
+.help{
+  display:none;
+}
+
+/* width */
+::-webkit-scrollbar {
+    width: 10px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+    background: #f1f1f1;
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+    background: #888;
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+    background: #555;
+}
+
+@media only screen and (max-width: 1000px) {
+    .navbar-center .navbar-item{
+      padding:0 !important;
+      width:33.3%;
+      text-align: center;
+      height:52px;
+      line-height: 52px;
+      vertical-align: middle;
+    }
+}
+
+input[type=text]::-ms-clear {  display: none; width : 0; height: 0; }
+input[type=text]::-ms-reveal {  display: none; width : 0; height: 0; }
+
+input[type=text]::-ms-clear {  display: none; width : 0; height: 0; }
+input[type=text]::-ms-reveal {  display: none; width : 0; height: 0; }
+input[type="search"]::-webkit-search-decoration,
+input[type="search"]::-webkit-search-cancel-button,
+input[type="search"]::-webkit-search-results-button,
+input[type="search"]::-webkit-search-results-decoration { display: none; }

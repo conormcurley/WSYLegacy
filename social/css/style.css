@@ -1,0 +1,274 @@
+body{
+  font-family: "proxima-soft",sans-serif;
+}
+
+.backed{
+  background-image: url('../img/Asset 3.png');
+  background-position: right;
+  background-size: auto;
+  background-repeat: no-repeat;
+}
+
+.header{
+  font-size: 2.85rem !important;
+  font-weight: 700 !important;
+  color: #262626 !important;
+  padding-bottom: 1rem;
+}
+
+.coloredblue{
+ color: #00a8ff !important;
+}
+
+.headertext{
+  max-width: 670px;
+  font-size: 1.5rem;
+}
+
+.buttoncase{
+  display: inline-block;
+  padding: 0 3rem;
+  height: 55px;
+  border-radius: 35px;
+  border:3px #00a8ff solid;
+  margin-top:2rem;
+  transition: 0.3s all;
+}
+
+.learnmore{
+  font-size: 1.5rem;
+  color: #00a8ff !important;
+  line-height: 50px;
+  vertical-align: middle;
+  text-align: center;
+}
+
+.buttoncase:hover{
+  background:#00a8ff;
+  cursor: pointer;
+}
+
+.buttoncase:hover .learnmore{
+  color: white !important
+}
+
+
+.navbar-item{
+  font-size: 1.3rem;
+  padding:.5rem 2rem .5rem 2rem;
+  transition: 0.3s all;
+  margin-top: .5rem;
+}
+
+.navbar-item:hover{
+  border-radius: 2rem;
+  background-color: #f1f1f2;
+  cursor: pointer;
+}
+
+.sideimage{
+  width:100%;
+  height: 100vh;
+  position: absolute;
+}
+
+.backedgraphic{
+  height: 750px;
+  position: absolute;
+  right: 16%;
+
+}
+
+.arrow{
+  width: 100%;
+  text-align: center;
+  color: !important;
+  font-size: 3rem;
+}
+
+.slight{
+  font-family: 1.5rem;
+  padding-top: 7rem;
+}
+
+.bubble{
+  padding-top:4rem;
+  height: 500px;
+  transition: .5s all;
+  z-index: -1;
+}
+
+.iphonejust{
+  position: absolute;
+  height: 650px;
+  transition: 1s all;
+  z-index: 1;
+}
+
+.macjust{
+  position: absolute;
+  height: 600px;
+  margin-top: -3rem !important;
+  z-index: 1;
+  transition: 1s all;
+}
+
+.invert{
+  position: relative;
+  z-index: -1;
+  transform: scaleX(-1);
+  margin-left: 10rem !important;
+}
+
+
+.onephone{
+  margin-top: -5rem !important;
+  opacity: 0;
+}
+
+.onebubble{
+  transform: scale(0);
+}
+
+.twophone{
+  margin-top: -5rem !important;
+  opacity: 0;
+}
+
+.twobubble{
+  transform: scale(0);
+
+}
+
+.threephone{
+  margin-top: -5rem !important;
+  opacity: 0;
+}
+
+.threebubble{
+  transform: scale(0);
+}
+
+
+.white{
+  color:white !important;
+}
+
+.whiteborder{
+  border-color: white !important;
+  transition: 0.3s all;
+}
+
+.whiteborder:hover{
+  background: white;
+  cursor: pointer;
+}
+
+.bordtext{
+  transition: 0.3s all;
+}
+
+.whiteborder:hover .bordtext{
+  color: #00a8ff !important;
+}
+
+.heavier{
+  font-weight: 900 !important;
+}
+
+.faqbox{
+  height: 450px;
+  background-color: #f1f1f2;
+  border-radius: 30px;
+}
+
+.margto{
+  margin-top: 2rem;
+}
+
+.faqcircle{
+  width: 100px;
+  height: 100px;
+  border-radius: 50px;
+  position: absolute;
+  margin-top: -50px;
+  margin-left: 270px !important;
+  border: white 10px solid;
+}
+
+.bluecir{
+  background-image: linear-gradient(120deg, #89f7fe 0%, #66a6ff 100%);
+}
+
+.redcir{
+  background-image: linear-gradient(-20deg, #fc6076 0%, #ff9a44 100%);
+}
+
+.yellowcir{
+  background-image: linear-gradient(120deg, #f6d365 0%, #fda085 100%);
+}
+
+.faqicon{
+  font-size: 2.4rem;
+  color: white;
+  margin:20px 24px;
+}
+
+.marged{
+  padding:1rem;
+}
+
+.faqheader{
+  display: inline-block;
+  padding:.7rem 2.4rem !important;
+  font-size: 1.6rem !important;
+  font-weight: 600 !important;
+  border-radius:30px;
+  color: white !important;
+  margin-top: 4rem;
+}
+
+.faqdet{
+  margin-left: 2rem;
+  font-size: 1.1rem;
+  font-weight: 500;
+  margin-top: 1rem;
+  margin-right: 1rem;
+  color: #58595b !important;
+}
+
+.right{
+  float: left;
+  margin-top: 0 !important;
+  margin-right: 10rem;
+  font-weight: 500 !important;
+}
+
+.pushed{
+  margin-left: 12rem;
+}
+
+.foot{
+  width: 100%;
+  margin-bottom: 1rem;;
+  display: inline-block;
+  font-size: 1.2rem;
+  color: #00a8ff;
+}
+
+.left{
+  float: left;
+}
+
+.alignright{
+  float: right;
+}
+
+ul li{
+  float: left;
+  margin: 0 2rem;
+}
+
+a{
+  color: #00a8ff;
+}
