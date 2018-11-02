@@ -1,0 +1,247 @@
+body{
+  background: #F1F2F6;
+  font-family: 'Roboto', sans-serif !important;
+}
+
+.smallerContainer{
+  width: 45%;
+  margin-left: 10%;
+}
+
+.materialOverline{
+  text-transform: uppercase;
+  font-size: 14px;
+  font-weight: 500;
+  color: #1E90FF;
+  font-family: 'Roboto', sans-serif;
+}
+
+.materialHeader{
+  font-size: 48px;
+  color: #575657;
+  font-family: 'Roboto', sans-serif !important;
+  margin-top: -0.6rem;
+
+}
+
+.materialText{
+  font-size: 16px;
+  color: #666566;
+  margin-bottom: 1rem;
+}
+
+.materialInput{
+  height:54px;
+  width:100%;
+  background: #DFE4EA;
+  border:none;
+  border-bottom:1px solid #575657;
+  border-radius: 5px 5px 0 0;
+  transition: all 0.3s;
+  padding-left: 1rem;
+  font-size: 16px;
+  color: #575657;
+}
+
+.materialInput:focus{
+  border-bottom: 2px solid #1E90FF;
+  outline: none;
+}
+
+
+
+.materialInput::after{
+  content: "Hello";
+  font-size: 16px;
+  color: black;
+}
+
+.materialButton{
+  font-family: 'Roboto', sans-serif;
+  height:32px;
+  background:#1E90FF;
+  text-transform: uppercase;
+  padding:0 16px;
+  font-size: 14px;
+  color:white;
+  font-weight: 500;
+  border: none;
+  border-radius: 5px;
+  -webkit-box-shadow: 0px 3px 6px 0px rgba(0,0,0,0.16);
+  -moz-box-shadow: 0px 3px 6px 0px rgba(0,0,0,0.16);
+  box-shadow: 0px 3px 6px 0px rgba(0,0,0,0.16);
+}
+
+.single{
+  margin-bottom:1rem;
+}
+
+.grey{
+  color: #313030;
+  opacity: 0.8;
+}
+
+.cornerImage{
+  position:absolute;
+  right:-200px;
+  width:40%;
+  bottom:-100px;
+}
+
+.tooltip{
+  height:24px;
+  padding:0 8px;
+  background-color:#FF4757;
+  position: absolute;
+  border-radius: 5px;
+  -webkit-box-shadow: 0px 3px 6px 0px rgba(0,0,0,0.16);
+  -moz-box-shadow: 0px 3px 6px 0px rgba(0,0,0,0.16);
+  box-shadow: 0px 3px 6px 0px rgba(0,0,0,0.16);
+  margin-top:5px;
+  display: none;
+  max-width:100%;
+}
+
+.tooltipText{
+  color: #fff;
+  font-size: 12px;
+  line-height: 24px;
+  vertical-align: middle;
+}
+
+.wrongPassword{
+  border-bottom:2px #FF4757 solid !important;
+}
+
+.alert{
+  position: absolute;
+  background: rgba(47, 53, 66, 0.7);
+  width:100%;
+  display: none;
+}
+
+.loaderMaterial{
+  width:200px;
+  height:200px;
+
+  padding:65px;
+  /* background: #fff; */
+  z-index: 100;
+  border-radius: 10px;
+  margin-left: calc(50% - 70px);
+  display:none;
+}
+
+.finishedPane{
+  padding:1rem 2rem;
+  text-align: center !important;
+  background:#fff;
+  border-radius: 10px;
+  z-index: 100;
+  margin:0 auto;
+  display:none;
+}
+
+
+
+
+
+
+
+
+
+.lds-roller {
+  display: inline-block;
+  position: relative;
+  width: 70px;
+  height: 70px;
+}
+.lds-roller div {
+  animation: lds-roller 1.2s cubic-bezier(0.5, 0, 0.5, 1) infinite;
+  transform-origin: 32px 32px;
+}
+.lds-roller div:after {
+  content: " ";
+  display: block;
+  position: absolute;
+  width: 6px;
+  height: 6px;
+  border-radius: 50%;
+  background: #1E90FF;
+  margin: -3px 0 0 -3px;
+}
+.lds-roller div:nth-child(1) {
+  animation-delay: -0.036s;
+}
+.lds-roller div:nth-child(1):after {
+  top: 50px;
+  left: 50px;
+}
+.lds-roller div:nth-child(2) {
+  animation-delay: -0.072s;
+}
+.lds-roller div:nth-child(2):after {
+  top: 54px;
+  left: 45px;
+}
+.lds-roller div:nth-child(3) {
+  animation-delay: -0.108s;
+}
+.lds-roller div:nth-child(3):after {
+  top: 57px;
+  left: 39px;
+}
+.lds-roller div:nth-child(4) {
+  animation-delay: -0.144s;
+}
+.lds-roller div:nth-child(4):after {
+  top: 58px;
+  left: 32px;
+}
+.lds-roller div:nth-child(5) {
+  animation-delay: -0.18s;
+}
+.lds-roller div:nth-child(5):after {
+  top: 57px;
+  left: 25px;
+}
+.lds-roller div:nth-child(6) {
+  animation-delay: -0.216s;
+}
+.lds-roller div:nth-child(6):after {
+  top: 54px;
+  left: 19px;
+}
+.lds-roller div:nth-child(7) {
+  animation-delay: -0.252s;
+}
+.lds-roller div:nth-child(7):after {
+  top: 50px;
+  left: 14px;
+}
+.lds-roller div:nth-child(8) {
+  animation-delay: -0.288s;
+}
+.lds-roller div:nth-child(8):after {
+  top: 45px;
+  left: 10px;
+}
+@keyframes lds-roller {
+  0% {
+    transform: rotate(0deg);
+  }
+  100% {
+    transform: rotate(360deg);
+  }
+}
+
+/* Smartphones (portrait and landscape) ----------- */
+@media only screen and (min-device-width : 320px) and (max-device-width : 480px) {
+  .smallerContainer{
+    width: 90%;
+    margin-left: 0%;
+  }
+  .cornerImage{
+    display:none;
+  }
+}

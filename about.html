@@ -1,0 +1,257 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <meta charset="utf-8">
+    <meta http-equiv=”Content-Type” content=”text/html; charset=UTF-8”/>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="copyright" content="What Suits You? is owned by Conor Curley and Michael Munnelly of 2018.">
+    <meta name="description" content="What Suits You? is a website containing a selection of carefully curated quizzes that help people choose a product that fits their needs. The person looking for a product enters the homepage, selects a quiz, and after a few short clicks will be presented a product that ‘Suits them’. ">
+    <meta name="keywords" content="quiz, quizzes, what suits, what suits you, What Suits You?, find a computer, find a pair of shoes, find an insurance package, find a phone, computers, phones, insurance, quizzes, what, quiz website">
+    <meta name="DC.title" content="What Suits You?">
+    <link rel="stylesheet" href="https://use.typekit.net/evz2pch.css">
+    <link rel="canonical" href="https://whatsuitsyou.ie" />
+    <link rel="icon" href="img/tablogo.png">
+    <link rel="shortcut icon" href="img/tablogo.png" type="image/x-icon">
+    <title>What Suits You</title>
+    <link rel="stylesheet" href="css/bulma.css">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/aboutstyle.css">
+    <script src="scripts/typed.js"></script>
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.13/css/all.css" integrity="sha384-DNOHZ68U8hZfKXOrtjWvjxusGo9WQnrNx2sqG0tfsghAvtVlRW3tvkXWZh58N9jp" crossorigin="anonymous">
+    <script src="scripts/jquery.visible.min.js"></script>
+    <script src="scripts/fullclip.js"></script>
+    <!-- Global site tag (gtag.js) - Google Analytics -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=UA-114335728-1"></script>
+    <script src="js/appear/jquery.appear.js"></script>
+    <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag(){dataLayer.push(arguments);}
+      gtag('js', new Date());
+
+      gtag('config', 'UA-114335728-1');
+    </script>
+
+        </script>
+  </head>
+
+
+
+  <body>
+
+
+      <div class="hero is-medium backedblue">
+        <div class="hero-head">
+          <div class="navbar is-transparent">
+            <div class="navbar-brand">
+              <a class="navbar-item" href="whatsuitsyou.ie">
+                <img src="img/logo.svg" alt="Bulma: a modern CSS framework based on Flexbox" width="112" height="28">
+              </a>
+              <div class="navbar-burger burger" data-target="nav">
+                <span></span>
+                <span></span>
+                <span></span>
+              </div>
+            </div>
+            <div id="nav" class="navbar-menu">
+              <div class="navbar-start">
+                <a href="index.html">
+                  <div class="navbar-item">
+                    Home
+                  </div>
+                </a>
+                <div class="navbar-item has-dropdown is-hoverable">
+                  <a class="navbar-link">
+                    Quizzes
+                  </a>
+
+                  <div class="navbar-dropdown">
+                    <a class="navbar-item">
+                      <i class="fas fa-shoe-prints margin"></i>Shoes
+                    </a>
+                    <a class="navbar-item">
+                      <i class="fas fa-laptop margin"></i>Computers
+                    </a>
+                    <a class="navbar-item">
+                      <i class="fas fa-mobile-alt margined"></i>Phones
+                    </a>
+                    <hr class="navbar-divider">
+                    <div class="navbar-item">
+                      More Coming soon
+                    </div>
+                  </div>
+                </div>
+                <div class="navbar-item">
+                  About
+                </div>
+                <div class="navbar-item">
+                  Contact
+                </div>
+              </div>
+
+              <div class="navbar-end">
+                <div class="navbar-item">
+                  <a class="button is-white is-outlined is-link is-inverted ">Log In or Sign Up</a>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="hero-body">
+          <div class="content has-text-centered">
+            <h1 class="white title">About What Suits You.</h1>
+          </div>
+        </div>
+      </div>
+
+      <div class="containerabout">
+        <div class="content is-medium">
+          <h2 class="top">What is What Suits You?</h2>
+          <div class="bluedivide"></div>
+          <p>What Suits You is an internet service created to reduce the amount of time people spend researching a product before buying it. We provide quizzes that, on completion, will show the user one product that suits their needs perfectly. The user can either buy the product when they see it from one of our "buy now" links or save the product to our app, which they can present to a shop assistant at one of our partnered retailers.</p>
+          <hr>
+          <h2 class="">Who are you?</h2>
+          <div class="bluedivide"></div>
+          <p>What Suits You is currently run by two core members and many, many advisors. We also have part-time quiz testers to allow us to find bugs in our code before we release the quizzes. The two core members are the two founders of the company: Conor Curley and Michael Munnelly. They are both young entrepreneurs from the West of Ireland with a flair for programming, design and entrepreneurship.</p>
+          <hr>
+          <h2 class="">Where are you based?</h2>
+          <div class="bluedivide"></div>
+          <p>We're based in a small town called Sligo in the West of Ireland. We've pointed to the location on the map below:</p>
+          <div id="map"></div>
+          <hr>
+          <h2 class="">Why should I use What Suits You?</h2>
+          <div class="bluedivide"></div>
+          <p>If you have ever bought a new computer or phone, you'll know that it's a substantial investment. That amount of spending requires weeks of research to find a product that really works for you. We propose to omit this aspect completely. When we create out quizzes, we spend hundreds of hours researching that genre of product. When we finish our research, we boil all of the key factors of this product into five or six questions. This concision allows for the most accurate result without taking too much time. We've perfected our quizzes so well that we can pinpoint a product for you in as fast as two minutes.</p>
+          <hr>
+          <h2 class="">How do I get in contact with you?</h2>
+          <div class="bluedivide"></div>
+          <p class="bottom">You can submit a ticket here <a href="contact.html">here</a> and we'll try and get back to you as soon as possible.</p>
+        </div>
+      </div>
+
+      <div class="hero is-blueback">
+        <div class="hero-body">
+          <div class="container">
+            <div class="content">
+              <h1 class="adheader white">Help support us with ads.</h1>
+            </div>
+            <div class="columns">
+              <div class="column whitead is-3">
+                <script async src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+                <!-- WSYbottomads -->
+                <ins class="adsbygoogle"
+                     style="display:block"
+                     data-ad-client="ca-pub-5251338059466199"
+                     data-ad-slot="6719038949"
+                     data-ad-format="auto"></ins>
+                <script>
+                (adsbygoogle = window.adsbygoogle || []).push({});
+                </script>
+              </div>
+              <div class="column whitead is-3">
+                <script async src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+                <!-- WSYbottomads -->
+                <ins class="adsbygoogle"
+                     style="display:block"
+                     data-ad-client="ca-pub-5251338059466199"
+                     data-ad-slot="6719038949"
+                     data-ad-format="auto"></ins>
+                <script>
+                (adsbygoogle = window.adsbygoogle || []).push({});
+                </script>
+              </div>
+              <div class="column whitead is-3">
+                <script async src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+                <!-- WSYbottomads -->
+                <ins class="adsbygoogle"
+                     style="display:block"
+                     data-ad-client="ca-pub-5251338059466199"
+                     data-ad-slot="6719038949"
+                     data-ad-format="auto"></ins>
+                <script>
+                (adsbygoogle = window.adsbygoogle || []).push({});
+                </script>
+              </div>
+              <div class="column whitead is-3">
+                <script async src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+                <!-- WSYbottomads -->
+                <ins class="adsbygoogle"
+                     style="display:block"
+                     data-ad-client="ca-pub-5251338059466199"
+                     data-ad-slot="6719038949"
+                     data-ad-format="auto"></ins>
+                <script>
+                (adsbygoogle = window.adsbygoogle || []).push({});
+                </script>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+
+      <div class="foot">
+        <div class="container">
+          <div class="left">
+            <img src="img/tablogo.png" class="footlogo" alt="">
+            &copy; What Suits You, 2018.
+          </div>
+          <div class="cleared"></div>
+          <div class="alignright">
+            <ul>
+              <li> <a href="">Home</a> </li>
+              <li> <a href="#">Quizzes</a> </li>
+              <li> <a href="#">About</a> </li>
+              <li> <a href="#">Socials</a> </li>
+              <li> <a href="#">Contact</a> </li>
+              <li> <a href="#">Privacy</a> </li>
+            </ul>
+          </div>
+        </div>
+      </div>
+
+
+
+      <script>
+
+      document.addEventListener('DOMContentLoaded', function () {
+
+        // Get all "navbar-burger" elements
+        var $navbarBurgers = Array.prototype.slice.call(document.querySelectorAll('.navbar-burger'), 0);
+
+        // Check if there are any navbar burgers
+        if ($navbarBurgers.length > 0) {
+
+          // Add a click event on each of them
+          $navbarBurgers.forEach(function ($el) {
+            $el.addEventListener('click', function () {
+
+              // Get the target from the "data-target" attribute
+              var target = $el.dataset.target;
+              var $target = document.getElementById(target);
+
+              // Toggle the class on both the "navbar-burger" and the "navbar-menu"
+              $el.classList.toggle('is-active');
+              $target.classList.toggle('is-active');
+
+            });
+          });
+        }
+
+      });
+
+      function initMap() {
+        // The location of Uluru
+        var uluru = {lat: 54.265936, lng: -8.479499};
+        // The map, centered at Uluru
+        var map = new google.maps.Map(
+            document.getElementById('map'), {zoom: 8, center: uluru});
+        // The marker, positioned at Uluru
+        var marker = new google.maps.Marker({position: uluru, map: map});
+      }
+      </script>
+      <script async defer
+    src="https://maps.googleapis.com/maps/api/js?key=AIzaSyByBoHauURRZIm5HT_fjdp7YSkUeiwoHj4&callback=initMap">
+    </script>
+  </body>
+</html>

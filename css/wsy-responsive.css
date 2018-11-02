@@ -1,0 +1,338 @@
+/*********************
+IPHONE X responsive
+*********************/
+@media screen and (max-width: 812px) {
+  body{
+    font-family: "proxima-soft",sans-serif;
+    overflow-x: hidden;
+  }
+
+  .productinfo{
+    max-width: 80%;
+    margin: 0 auto;
+    background: rgba(112, 112, 112, 0.05);
+    color: rgba(112, 112, 112, 0.7);
+    font-size: 1.2rem;
+    padding: 1rem;
+  }
+
+  .backed{
+    background-image: url('../img/Asset 3.png');
+    background-position: right;
+    background-size: cover;
+    background-repeat: no-repeat;
+  }
+
+  .header{
+    font-size: 2.7rem !important;
+    font-weight: 700 !important;
+    color: #272727 !important;
+    padding-bottom: 3.5rem;
+  }
+
+  .topped{
+    font-size: 2.7rem !important;
+    font-weight: 700 !important;
+    color: white !important;
+    padding-bottom: 3.5rem;
+    width: 315px;
+  }
+
+  .topped{
+    margin-top:-2rem;
+  }
+
+  .coloredblue{
+   color: #00a8ff !important;
+  }
+
+  .headertext{
+    max-width: 350px !important;
+    font-size: 1.4em !important;
+  }
+
+  .logo-resize {
+    margin-left: -20px;
+  }
+
+  .banner {
+    width: 65%;
+    margin-top: 30px;
+  }
+
+  .slight {
+    width: 360px !important;
+  }
+
+  .faqicon{
+    font-size: 1.4rem;
+    color: white;
+    margin:20px 21px;
+  }
+
+  .faqcircle{
+    width: 80px;
+    height: 80px;
+    border-radius: 50px;
+    position: absolute;
+    margin-top: -50px;
+    margin-left: 260px !important;
+    border: white 10px solid;
+  }
+
+  .adheader{
+    font-size: 1.83rem !important;
+    font-weight: 500;
+    margin-bottom: 30px !important;
+  }
+
+  .footlogo {
+    margin-left: 30px;
+  }
+
+  ul li{
+    float: left;
+    margin: 0 .3rem;
+    margin-left: 10px;
+  }
+}
+
+
+
+
+
+/*********************
+GALLAXYS5 responsive
+*********************/
+@media screen and (max-width: 640px) {
+  body{
+    font-family: "proxima-soft",sans-serif;
+    overflow-x: hidden;
+  }
+
+  .productinfo{
+    max-width: 80%;
+    margin: 0 auto;
+    background: rgba(112, 112, 112, 0.05);
+    color: rgba(112, 112, 112, 0.7);
+    font-size: 1.2rem;
+    padding: 1rem;
+  }
+
+  .backed{
+    background-image: url('../img/Asset 3.png');
+    background-position: right;
+    background-size: cover;
+    background-repeat: no-repeat;
+  }
+
+  .header{
+    font-size: 1.5rem !important;
+    font-weight: 700 !important;
+    color: #272727 !important;
+    padding-bottom: 2rem;
+    padding-top: 2.5rem;
+    max-width: 340px !important;
+  }
+
+  .topped{
+    font-size: 2.7rem !important;
+    font-weight: 700 !important;
+    color: white !important;
+    padding-bottom: 3.5rem;
+    width: 300px !important;
+    margin-top:-2rem;
+  }
+
+
+  .coloredblue{
+   color: #00a8ff !important;
+  }
+
+  .headertext{
+    max-width: 320px !important;
+    font-size: 1.3em !important;
+  }
+
+  .logo-resize {
+    margin-left: -20px;
+  }
+
+  .banner {
+    width: 62%;
+    margin-top: 20px;
+  }
+
+  .slight {
+    width: 390px !important;
+    font-size: 1em !important;
+  }
+
+  .faqicon{
+    font-size: 1.4rem;
+    color: white;
+    margin:20px 21px;
+  }
+
+  .faqcircle{
+    width: 80px;
+    height: 80px;
+    border-radius: 50px;
+    position: absolute;
+    margin-top: -50px;
+    margin-left: 240px !important;
+    border: white 10px solid;
+  }
+
+  .adheader{
+    font-size: 1.75rem !important;
+    font-weight: 500;
+    margin-bottom: 30px !important;
+  }
+
+  .footlogo {
+    margin-left: 30px;
+  }
+
+  ul li{
+    float: left;
+    margin: 0 .3rem;
+    margin-left: 7px;
+  }
+
+  .faqbox{
+    height: 600px;
+    background-color: #f1f1f2;
+    border-radius: 30px;
+  }
+}
+
+
+
+/*********************
+iPAD responsive
+*********************/
+@media only screen and (max-width: 1024px) and (min-width: 640px)  {
+    body{
+    font-family: "proxima-soft",sans-serif;
+    overflow-x: hidden;
+  }
+
+
+  .productinfo{
+    max-width: 80%;
+    margin: 0 auto;
+    background: rgba(112, 112, 112, 0.05);
+    color: rgba(112, 112, 112, 0.7);
+    font-size: 1.2rem;
+    padding: 1rem;
+  }
+
+  .backed{
+    background-image: url('../img/Asset 3.png');
+    background-position: right;
+    background-size: cover;
+    background-repeat: no-repeat;
+  }
+
+  .header{
+    font-size: 2.5rem !important;
+    font-weight: 700 !important;
+    color: #272727 !important;
+    padding-bottom: 2rem;
+    padding-top: 2.5rem;
+    text-align: center;
+    min-width: 100% !important;
+  }
+
+  .topped{
+    font-size: 2.7rem !important;
+    font-weight: 700 !important;
+    color: white !important;
+    padding-bottom: 3.5rem;
+    width: 300px !important;
+    margin-top:-2rem;
+  }
+
+
+  .coloredblue{
+   color: #00a8ff !important;
+  }
+
+  .headertext{
+    font-size: 1.3em !important;
+    text-align: left !important;
+    margin: 0 auto;
+  }
+
+  .logo-resize {
+    margin-left: -20px;
+  }
+
+  .banner {
+    width: 62%;
+    margin-top: 20px;
+  }
+
+  .slight {
+    width: 360px !important;
+  }
+
+  .faqicon{
+    font-size: 2.2rem;
+    color: white;
+    margin:20px 25px;
+  }
+
+  .faqcircle{
+    width: 100px;
+    height: 100px;
+    border-radius: 50px;
+    position: absolute;
+    margin-top: -50px;
+    margin-left: 580px !important;
+    border: white 10px solid;
+  }
+
+  .adheader{
+    font-size: 1.75rem !important;
+    font-weight: 500;
+    margin-bottom: 30px !important;
+  }
+
+  .footlogo {
+    margin-left: 70px;
+  }
+
+  ul li{
+    float: left;
+    margin: 0 .3rem;
+    margin-left: 77px;
+  }
+
+  .faqbox{
+    background-color: #f1f1f2;
+    border-radius: 30px;
+    margin-top: 30px;
+    height: 370px;
+  }
+
+  .backedgraphic {
+    height: 750px;
+    position: absolute;
+    right: 16%;
+  }
+
+  .buttoncase {
+    margin-left: 25%;
+  }
+
+  .macjust{
+    position: absolute;
+    height: 300px;
+    margin-left: 23% !important;
+    z-index: 1;
+    transition: 1s all;
+    margin: 0 auto;
+  }
+}

@@ -1,0 +1,397 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js" ></script>
+    <meta charset="utf-8">
+    <meta http-equiv=”Content-Type” content=”text/html; charset=UTF-8”/>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="copyright" content="What Suits You? is owned by Conor Curley and Michael Munnelly of 2018.">
+    <meta name="description" content="What Suits You? is a website containing a selection of carefully curated quizzes that help people choose a product that fits their needs. The person looking for a product enters the homepage, selects a quiz, and after a few short clicks will be presented a product that ‘Suits them’. ">
+    <meta name="keywords" content="quiz, quizzes, what suits, what suits you, What Suits You?, find a computer, find a pair of shoes, find an insurance package, find a phone, computers, phones, insurance, quizzes, what, quiz website">
+    <meta name="DC.title" content="What Suits You?">
+    <link rel="canonical" href="https://whatsuitsyou.ie" />
+    <link rel="icon" href="img/tablogo.png">
+    <link rel="shortcut icon" href="img/tablogo.png" type="image/x-icon">
+    <title>What Suits You</title>
+    <link href="https://fonts.googleapis.com/css?family=Montserrat:400,600,700|Roboto:400,500,700|Nunito" rel="stylesheet">
+    <link rel="stylesheet" href="css/bulma.css">
+    <link rel="stylesheet" href="css/quizstyle.css">
+    <script src="https://use.fontawesome.com/54cbeb876a.js"></script>
+    </script>
+  </head>
+  <body>
+
+    <div class="overlay">
+      <div class="hero is-fullheight">
+        <div class="hero-body">
+          <div class="container">
+            <div class="content has-text-centered">
+              <div class="lds-ring"><div></div><div></div><div></div><div></div></div>
+              <p class="white nunito">whatsuitsyou.ie</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+
+
+    <nav class="navbar wsy-blue">
+      <div class="container">
+        <div class="navbar-center">
+          <div class="navbar-item helpbutton">
+            Help
+          </div>
+          <div class="navbar-item quizzesbutton is-active">
+            Quizzes
+          </div>
+          <div class="navbar-item blogbutton">
+            Blog
+          </div>
+        </div>
+      </div>
+    </nav>
+
+    <div class="app">
+
+      <div class="smaller-container">
+        <input type="search" class="searchbar" name="" value="" placeholder="Search our quizzes...">
+        <div class="columns is-multiline">
+          <div class="column is-4-widescreen is-6-desktop is-12-mobile">
+            <div class="card">
+              <div class="card-image over">
+                <figure class="image is-4by3">
+                  <img src="img/techdemo.png" class="overlayimage" alt="Placeholder image">
+                  <div class="over-inner">
+                    <a href="https://whatsuitsyou.ie/quizzes/technical_demonstration.html" class="button is-white is-medium is-outlined" id="overbutton">Take Quiz</a>
+                  </div>
+                </figure>
+              </div>
+              <div class="card-content">
+                <div class="media">
+                  <div class="media-content">
+                    <p class="subtitle is-4">Technical Demonstration</p>
+                    <p class="subtitle is-6">3 Questions, 4 options each</p>
+                  </div>
+                </div>
+
+                <div class="content">
+                  <p>Help us find flaws in our system by using the first ever WSY quiz. We've designed a guide to make the experience as easy as possible.</p>
+
+                    <div class="tags has-addons">
+                      <span class="tag">Quiz</span>
+                      <span class="tag is-info margin">Tech</span>
+                      <span class="tag">Time</span>
+                      <span class="tag is-success margin">1 min</span>
+                      <span class="tag is-danger">Beta</span>
+                    </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="column is-4-widescreen is-6-desktop is-12-mobile">
+            <div class="card">
+              <div class="card-image over">
+                <figure class="image is-4by3">
+                  <img src="img/insurance.png" class="overlayimage" alt="Placeholder image">
+                  <div class="over-inner">
+                    <a href="#" class="button is-white is-medium is-outlined" id="overbutton" disabled>Take Quiz</a>
+                  </div>
+                </figure>
+              </div>
+              <div class="card-content">
+                <div class="media">
+                  <div class="media-content">
+                    <p class="subtitle is-4">Insurance</p>
+                    <p class="subtitle is-6">6 Questions, 6 options each</p>
+                  </div>
+                </div>
+
+                <div class="content">
+                  <p>Find the perfect car, home or health insurance package from a massive range of reputable companies.</p>
+
+                    <div class="tags has-addons">
+                      <span class="tag">Quiz</span>
+                      <span class="tag is-info margin">Services</span>
+                      <span class="tag">Time</span>
+                      <span class="tag is-success margin">2 mins</span>
+                      <span class="tag is-info">In Development</span>
+                    </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="column is-4-widescreen is-6-desktop is-12-mobile">
+            <div class="card">
+              <div class="card-image over">
+                <figure class="image is-4by3">
+                  <img src="img/computers.png" class="overlayimage" alt="Placeholder image">
+                  <div class="over-inner">
+                    <a href="#" class="button is-white is-medium is-outlined" id="overbutton" disabled>Take Quiz</a>
+                  </div>
+                </figure>
+              </div>
+              <div class="card-content">
+                <div class="media">
+                  <div class="media-content">
+                    <p class="subtitle is-4">Computers</p>
+                    <p class="subtitle is-6">6 Questions, 5 options each</p>
+                  </div>
+                </div>
+
+                <div class="content">
+                  <p>Find the perfect laptop, desktop or all-in-one computer based on your needs and wants. Jargon is cut to a minimum.</p>
+
+                    <div class="tags has-addons">
+                      <span class="tag">Quiz</span>
+                      <span class="tag is-info margin">Tech</span>
+                      <span class="tag">Time</span>
+                      <span class="tag is-success margin">1 min</span>
+                      <span class="tag is-info">In Development</span>
+                    </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="column is-4-widescreen is-6-desktop is-12-mobile">
+            <div class="card">
+              <div class="card-image over">
+                <figure class="image is-4by3">
+                  <img src="img/phone.png" class="overlayimage" alt="Placeholder image">
+                  <div class="over-inner">
+                    <a href="#" class="button is-white is-medium is-outlined" id="overbutton" disabled>Take Quiz</a>
+                  </div>
+                </figure>
+              </div>
+              <div class="card-content">
+                <div class="media">
+                  <div class="media-content">
+                    <p class="subtitle is-4">Phones</p>
+                    <p class="subtitle is-6">5 Questions, 5 options each</p>
+                  </div>
+                </div>
+
+                <div class="content">
+                  <p>Find the perfect phone for you, based on screen size, use case, and battery life. Based on Irish regionlock</p>
+
+                    <div class="tags has-addons">
+                      <span class="tag">Quiz</span>
+                      <span class="tag is-info margin">Tech</span>
+                      <span class="tag">Time</span>
+                      <span class="tag is-success margin">1 min</span>
+                      <span class="tag is-info">In Development</span>
+                    </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="column is-4-widescreen is-6-desktop is-12-mobile">
+            <div class="card">
+              <div class="card-image over">
+                <figure class="image is-4by3">
+                  <img src="img/shoes.png" class="overlayimage" alt="Placeholder image">
+                  <div class="over-inner">
+                    <a href="#" class="button is-white is-medium is-outlined" id="overbutton" disabled>Take Quiz</a>
+                  </div>
+                </figure>
+              </div>
+              <div class="card-content">
+                <div class="media">
+                  <div class="media-content">
+                    <p class="subtitle is-4">Shoes</p>
+                    <p class="subtitle is-6">6 Questions, 4 options each</p>
+                  </div>
+                </div>
+
+                <div class="content">
+                  <p>Find the perfect pair of shoes based on foot shape, size, arch and style. Prices based on Irish shipping costs.</p>
+
+                    <div class="tags has-addons">
+                      <span class="tag">Quiz</span>
+                      <span class="tag is-info margin">Clothing</span>
+                      <span class="tag">Time</span>
+                      <span class="tag is-success margin">1 min</span>
+                      <span class="tag is-info">In Development</span>
+                    </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+
+        <div class="buttons has-addons is-centered">
+          <span class="button wsy-blue white is-medium load">Load More Quizzes</span>
+        </div>
+
+        <div class="bottompad"></div>
+      </div>
+  </div>
+
+  <div class="blog">
+    <div class="smaller-container">
+      <input type="search" class="searchbar" name="" value="" placeholder="Search blog articles...">
+        <div class="columns is-multiline">
+          <div class="column is-4-widescreen is-6-desktop is-12-mobile">
+            <div class="card">
+              <div class="card-image over">
+                <figure class="image is-4by3">
+                  <img src="img/techdemo.png" class="overlayimage" alt="Placeholder image">
+                  <div class="over-inner">
+                    <a href="blog/commission.html" class="button is-white is-medium is-outlined" id="overbutton">Read More</a>
+                  </div>
+                </figure>
+              </div>
+              <div class="card-content">
+                <div class="media">
+                  <div class="media-content">
+                    <p class="subtitle is-4">How does What Suits You run without commission?</p>
+                    <p class="subtitle is-6">02/03/18</p>
+                  </div>
+                </div>
+
+                <div class="content">
+                  <p>Learn a bit more about us in this short article about how we pay our expenses without taking commission from retailers.</p>
+
+                    <div class="tags has-addons">
+                      <span class="tag is-dark">Genre</span>
+                      <span class="tag is-info margin">Informative</span>
+                      <span class="tag is-dark">Read time</span>
+                      <span class="tag is-success margin">10 mins</span>
+                    </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="column is-4-widescreen is-6-desktop is-12-mobile">
+            <div class="card">
+              <div class="card-image over">
+                <figure class="image is-4by3">
+                  <img src="img/techdemo.png" class="overlayimage" alt="Placeholder image">
+                  <div class="over-inner">
+                    <a href="blog/simplification.html" class="button is-white is-medium is-outlined" id="overbutton">Read More</a>
+                  </div>
+                </figure>
+              </div>
+              <div class="card-content">
+                <div class="media">
+                  <div class="media-content">
+                    <p class="subtitle is-4">How does What Suits You simplify jargon?</p>
+                    <p class="subtitle is-6">02/03/18</p>
+                  </div>
+                </div>
+
+                <div class="content">
+                  <p>Learn a bit more about us in this short article about how we simplify jargon to make our quizzes more accessible.</p>
+
+                    <div class="tags has-addons">
+                      <span class="tag is-dark">Genre</span>
+                      <span class="tag is-info margin">Informative</span>
+                      <span class="tag is-dark">Read time</span>
+                      <span class="tag is-success margin">7 mins</span>
+                    </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="column is-4-widescreen is-6-desktop is-12-mobile">
+            <div class="card">
+              <div class="card-image over">
+                <figure class="image is-4by3">
+                  <img src="img/techdemo.png" class="overlayimage" alt="Placeholder image">
+                  <div class="over-inner">
+                    <a href="#" class="button is-white is-medium is-outlined" id="overbutton" disabled>Read More</a>
+                  </div>
+                </figure>
+              </div>
+              <div class="card-content">
+                <div class="media">
+                  <div class="media-content">
+                    <p class="subtitle is-4">What is a PWA?</p>
+                    <p class="subtitle is-6">02/03/18</p>
+                  </div>
+                </div>
+
+                <div class="content">
+                  <p>Learn a bit more about how What Suits You functions behind the scenes, and find out where to learn this revelutionary new concept online.</p>
+
+                    <div class="tags has-addons">
+                      <span class="tag is-dark">Genre</span>
+                      <span class="tag is-info margin">Programming</span>
+                      <span class="tag is-dark">Read time</span>
+                      <span class="tag is-success margin">5 mins</span>
+                    </div>
+                </div>
+              </div>
+            </div>
+      </div>
+      </div>
+
+      <div class="bottompad"></div>
+      <div class="buttons has-addons is-centered">
+        <span class="button wsy-blue white is-medium load">Load More Blog Articles</span>
+      </div>
+
+      <div class="bottompad"></div>
+    </div>
+  </div>
+  </div>
+
+  <div class="help">
+    <div class="smaller-container">
+      <div class="content">
+        <h2 class="title is-3 blue">Help</h2>
+        <h2 class="title is-4">How does this work?</h2>
+        <p class="help-content">To begin,<strong> click on the quizzes section, and select a quiz that suits the product you need.</strong> Read the short blurb beforehand for a general idea of what to do. Go through the quiz, answering the questions that you feel describe your needs best, and remember, there are no right or wrong answers. When you finish the quiz, you will be presented with a product that suits you, and links to buy it from. The entire process should only take about 1-2 minutes.</p>
+
+        <h2 class="title is-4">What do the tags at the bottom of the cards mean?</h2>
+        <p class="help-content">The tags at the bottom of the cards <strong>specify the genre, development stage, and the time the quiz takes.</strong> We put these at the bottom for your convenience, but also to notify people about upcoming quizzes that they might be interested in. Don't let them confuse you, we're merely future-proofing, so in the future, our customers can find quizzes quickly thought filters.</p>
+
+        <h2 class="title is-4">How do I submit a quiz?</h2>
+        <p class="help-content">To submit a quiz, <strong>go to our contact us section, and select quiz suggestion and type your suggestion in the inquiry box.</strong> We try to process your inquiry as fast as possible, and if we think that quiz would be a good fit for our site,  we'll ask our fans on social media. Soon after this, we'll try to find a partner and get the quiz up as soon as possible. Unfortunately, we cannot give you a definite timeframe on how long the quiz will take be up and running because of the variable involved.</p>
+      </div>
+    </div>
+  </div>
+
+  <script>
+
+    $(window).on("load", function() {
+      $('.overlay').fadeOut(400);
+    });
+
+    $('.load').click(function(){
+      $('.load').addClass('is-loading');
+      setInterval(function(){
+        $('.load').removeClass('is-loading');
+      }, 2000)
+    })
+
+    $('.blogbutton').click(function(){
+      $('.blogbutton').addClass('is-active');
+      $('.quizzesbutton').removeClass('is-active');
+      $('.helpbutton').removeClass('is-active');
+      $('.app').css('display','none');
+      $('.help').css('display','none');
+      $('.blog').css('display','block');
+    })
+
+    $('.quizzesbutton').click(function(){
+      $('.quizzesbutton').addClass('is-active');
+      $('.blogbutton').removeClass('is-active');
+      $('.helpbutton').removeClass('is-active');
+      $('.app').css('display','block');
+      $('.help').css('display','none');
+      $('.blog').css('display','none');
+    })
+
+    $('.helpbutton').click(function(){
+      $('.helpbutton').addClass('is-active');
+      $('.quizzesbutton').removeClass('is-active');
+      $('.blogbutton').removeClass('is-active');
+      $('.help').css('display','block');
+      $('.app').css('display','none');
+      $('.blog').css('display','none');
+    })
+  </script>
+  </body>
+</html>

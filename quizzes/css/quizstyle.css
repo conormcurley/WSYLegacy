@@ -1,0 +1,264 @@
+body{
+  background: #F2F4F4;
+  height:103svh;
+  overflow-x: hidden;
+}
+
+.navbar-item{
+  color:#363636;
+  padding-left: 30px;
+  padding-right: 30px;
+  font-size:1.3em;
+  font-weight: 400;
+}
+
+.quizbox{
+  padding-bottom: 1rem;
+}
+
+a{
+  color:#363636;
+}
+
+.navbar{
+  height:60px;
+  width:100%;
+  transition: .2s all;
+}
+
+.navbar-item img{
+  max-height:1.8rem;
+}
+
+
+.quiztitle{
+  padding-left: 10px;
+  font-size: 1.2em;
+}
+
+.button{
+  margin:12px .7rem;
+  padding:0px 2rem;
+}
+
+.center{
+  text-align: center;
+}
+
+.box{
+  margin: 20px 20px;
+  transition: .3s all;
+}
+
+.cardtitle{
+  font-size: 1.6em;
+  font-weight: 500;
+  padding-right:10px;
+}
+
+.carddesc{
+  font-size: 1.2em;
+}
+
+.titlebox{
+  height:50px;
+  padding:0px 70px;
+  border-radius: 25px;
+  display: inline-block;
+  min-width:100px;
+  text-align: center;
+  background: #00d2ff;  /* fallback for old browsers */
+  background: -webkit-linear-gradient(to right, #3a7bd5, #00d2ff);  /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(to right, #3a7bd5, #00d2ff); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+  color:white;
+  line-height: 50px;
+  vertical-align: middle;
+  margin-left:5%;
+  margin-top:-25px;
+  max-width: 90%;
+}
+
+.titleboxtext{
+  font-size: 1.5em;
+}
+
+.quizbox{
+  min-height:70vh;
+  width: 60%;
+  background:white;
+  border-radius: 25px;
+  margin-left:20%;
+  margin-top:calc(15vh - 60px);
+  -webkit-box-shadow: 0px 0px 25px 0px rgba(194,194,194,1);
+  -moz-box-shadow: 0px 0px 25px 0px rgba(194,194,194,1);
+  box-shadow: 0px 0px 25px 0px rgba(194,194,194,1);
+}
+
+.title{
+  padding-top:20px;
+  padding-left:30px;
+}
+
+.coverbox{
+  width:100%;
+  height:calc(100vh - 60px);
+  position: absolute;
+  background: #2E2E2E;
+  opacity: 0;
+  transition: all 1s;
+}
+
+.over{
+  position: relative;
+  transition: .2s all;
+}
+
+.over:hover{
+  cursor: pointer;
+}
+
+.red{
+  color:#FF3860;
+}
+
+.redopaque{
+  background-color: #FFDDE4;
+  opacity: 0;
+  transition: all 1s;
+}
+
+.one{
+  display: none;
+}
+
+.two{
+  display: none;
+  opacity: 0;
+  transition: .3s all;
+}
+
+.three{
+  display: none;
+  opacity: 0;
+  transition: .3s all;
+}
+
+.center{
+  text-align: center;
+}
+
+.column{
+  margin:20px;
+}
+
+.subtitle{
+  font-size: 1.3em;
+  font-weight: 500;
+}
+
+#buynow{
+  width:100%;
+  height:50px;
+  color:white;
+  font-size: 1.3em;
+  margin-bottom:10px;
+}
+
+.noleft{
+  padding-left:0px;
+}
+
+li{
+  list-style: disc;
+  padding-top:5px;
+}
+
+ul{
+  padding-top:10px;
+}
+
+.productbox{
+  display:none;
+}
+
+.techdisctext{
+  width:90%;
+  margin:0 auto;
+  font-size: 1.3em;
+}
+
+.topped{
+  margin-top:30px;
+  margin-left:calc(40%);
+}
+
+.coverbox{
+  display:none;
+  height:110vh !important;
+}
+
+@media (max-width: 880px) {
+  body{
+    max-height: none;
+    max-width: 100%;
+    overflow-x: hidden !important;
+  }
+
+  .coverbox{
+    width:0%;
+    height:0vh;
+  }
+
+  .quiztitle{
+    font-size: 1em;
+  }
+
+  .titlebox{
+    min-height:50px;
+    word-wrap: break-word;
+    flex: 1 0 0;
+    overflow: auto;
+    padding:0px 70px;
+    border-radius: 25px;
+    display: inline-block;
+    min-width:100px;
+    text-align: center;
+    background: #00d2ff;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #3a7bd5, #00d2ff);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #3a7bd5, #00d2ff); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    color:white;
+    line-height: 50px;
+    vertical-align: middle;
+    margin-top: 25px;
+    margin-left:5%;
+    max-width: 90%;
+  }
+
+  .titleboxtext{
+    font-size: 1.2em;
+  }
+
+  .quizbox{
+    min-height: calc(100% - 60px);
+    width: 100%;
+    background:white;
+    border-radius: 0px;
+    margin-left:0%;
+    margin-top:0px;
+    box-shadow: none;
+    -webkit-overflow-scrolling:touch;
+  }
+
+  .letsgo{
+    margin-left: 20%;
+  }
+
+  .box{
+    background:rgba(74, 74, 74, 0.47);
+  }
+
+  .over{
+    background: #fff !important;
+  }
+
+}

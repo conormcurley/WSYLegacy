@@ -1,0 +1,616 @@
+body{
+  font-family: "proxima-soft",sans-serif;
+}
+
+.productinfo{
+  max-width: 80%;
+  margin: 0 auto;
+  background: rgba(112, 112, 112, 0.05);
+  color: rgba(112, 112, 112, 0.7);
+  font-size: 1.2rem;
+  padding: 1rem;
+}
+
+.backed{
+  background-image: url('../img/Asset 3.png');
+  background-position: right;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.header{
+  font-size: 2.85rem !important;
+  font-weight: 700 !important;
+  color: #262626 !important;
+  padding-bottom: 1rem;
+}
+
+.topped{
+  margin-top:-2rem;
+}
+
+.coloredblue{
+ color: #00a8ff !important;
+}
+
+.headertext{
+  max-width: 670px;
+  font-size: 1.5rem;
+}
+
+.buttoncase{
+  display: inline-block;
+  padding: 0 3rem;
+  height: 55px;
+  border-radius: 35px;
+  border:3px #00a8ff solid;
+  margin-top:2rem;
+  transition: 0.3s all;
+}
+
+.learnmore{
+  font-size: 1.5rem;
+  color: #00a8ff !important;
+  line-height: 50px;
+  vertical-align: middle;
+  text-align: center;
+}
+
+.buttoncase:hover{
+  background:#00a8ff;
+  cursor: pointer;
+}
+
+.buttoncase:hover .learnmore{
+  color: white !important
+}
+
+
+.navbar-item{
+  font-size: 1.3rem;
+  transition: 0.3s all;
+  color: #fff;
+}
+
+.has-dropdown .navbar-item{
+  color: rgba(112,112,112,0.9);
+  font-size: 1.2rem;
+}
+
+.margin{
+  margin-right: 0.5rem;
+}
+.margined{
+  margin:0 0.8rem 0 0.3rem;
+}
+
+.navbar-link{
+  color:#fff;
+}
+
+.footlogo{
+  height: 30px;
+  float:left;
+  margin-right:1rem;
+}
+
+.navbar-item:hover{
+  cursor: pointer;
+}
+
+.sideimage{
+  width:100%;
+  height: 100vh;
+  position: absolute;
+}
+
+.backedgraphic{
+  height: 750px;
+  position: absolute;
+  right: 16%;
+
+}
+
+.arrow{
+  width: 100%;
+  text-align: center;
+  color: !important;
+  font-size: 3rem;
+}
+
+.slight{
+  font-family: 1.5rem;
+  padding-top: 7rem;
+}
+
+.bubble{
+  padding-top:4rem;
+  height: 500px;
+  transition: .5s all;
+  z-index: -1;
+}
+
+.iphonejust{
+  position: absolute;
+  height: 650px;
+  transition: 1s all;
+  z-index: 1;
+}
+
+.macjust{
+  position: absolute;
+  height: 600px;
+  margin-top: -3rem !important;
+  z-index: 1;
+  transition: 1s all;
+}
+
+.invert{
+  position: relative;
+  z-index: -1;
+  transform: scaleX(-1);
+  margin-left: 10rem !important;
+}
+
+
+.onephone{
+  margin-top: -5rem !important;
+  opacity: 0;
+}
+
+.onebubble{
+  transform: scale(0);
+}
+
+.twophone{
+  margin-top: -5rem !important;
+  opacity: 0;
+}
+
+.twobubble{
+  transform: scale(0);
+
+}
+
+.threephone{
+  margin-top: -5rem !important;
+  opacity: 0;
+}
+
+.threebubble{
+  transform: scale(0);
+}
+
+
+.white{
+  color:white !important;
+}
+
+.whiteborder{
+  border-color: white !important;
+  transition: 0.3s all;
+}
+
+.whiteborder:hover{
+  background: white;
+  cursor: pointer;
+}
+
+.bordtext{
+  transition: 0.3s all;
+}
+
+.whiteborder:hover .bordtext{
+  color: #00a8ff !important;
+}
+
+.heavier{
+  font-weight: 900 !important;
+}
+
+.faqbox{
+  height: 450px;
+  background-color: #f1f1f2;
+  border-radius: 30px;
+}
+
+.margto{
+  margin-top: 2rem;
+}
+
+.faqcircle{
+  width: 100px;
+  height: 100px;
+  border-radius: 50px;
+  position: absolute;
+  margin-top: -50px;
+  margin-left: 270px !important;
+  border: white 10px solid;
+}
+
+.bluecir{
+  background-image: linear-gradient(120deg, #89f7fe 0%, #66a6ff 100%);
+}
+
+.is-blueback{
+  background:#2BADF2;
+  margin-bottom: 2rem;
+}
+
+.lightblue{
+  color:#4896FB !important;
+}
+
+.darkblue{
+  color: #0A96E3 !important;
+}
+
+.bluebut{
+  background: #0296F4 !important;
+}
+
+.redcir{
+  background-image: linear-gradient(-20deg, #fc6076 0%, #ff9a44 100%);
+}
+
+.yellowcir{
+  background-image: linear-gradient(120deg, #f6d365 0%, #fda085 100%);
+}
+
+.is-backedcoming{
+  background-image: url('../img/coming.png');
+}
+
+.faqicon{
+  font-size: 2.4rem;
+  color: white;
+  margin:20px 24px;
+}
+
+.whitead{
+  background:white;
+  padding:1rem;
+  border-radius: 25px;
+  margin:0.5rem;
+}
+
+.marged{
+  padding:1rem;
+}
+
+.faqheader{
+  display: inline-block;
+  padding:.7rem 2.4rem !important;
+  font-size: 1.6rem !important;
+  font-weight: 600 !important;
+  border-radius:30px;
+  color: white !important;
+  margin-top: 4rem;
+}
+
+.faqdet{
+  margin-left: 2rem;
+  font-size: 1.1rem;
+  font-weight: 500;
+  margin-top: 1rem;
+  margin-right: 1rem;
+  color: #58595b !important;
+}
+
+.right{
+  float: left;
+  margin-top: 0 !important;
+  margin-right: 10rem;
+  font-weight: 500 !important;
+}
+
+.pushed{
+  margin-left: 12rem;
+}
+
+.foot{
+  width: 100%;
+  margin-bottom: 1rem;;
+  display: inline-block;
+  font-size: 1.2rem;
+  color: #00a8ff;
+}
+
+.left{
+  float: left;
+}
+
+.alignright{
+  float: right;
+}
+
+ul li{
+  float: left;
+  margin: 0 2rem;
+}
+
+a{
+  color: #00a8ff;
+}
+.contentbox{
+  width:550px;
+  margin: 0 auto;
+  padding: 3rem 0;
+  display: inline-block;
+  background:#fff;
+}
+
+.quest{
+  color:#FECA57;
+  font-size: 1.7rem;
+  text-align: center;
+  padding-bottom: 0 !important;
+  font-weight: 500;
+}
+
+.contactinput{
+  width: 70%;
+  height: 55px;
+  margin:0 auto;
+  display: block;
+  background-color: rgba(112,112,112,0.05);
+  border: none;
+  padding-left:10%;
+  color: rgba(112,112,112, 0.8);
+  font-size: 1.3rem;
+  font-weight: 600;
+  margin-bottom: 1rem;
+}
+
+.contacttext{
+  max-width: 70%;
+  min-width: 70%;
+  margin:0 auto;
+  display: block;
+  background-color: rgba(112,112,112,0.05);
+  border: none;
+  padding-top: 0.9rem;
+  padding-left:10%;
+  color: rgba(112,112,112, 0.8);
+  font-size: 1.3rem;
+  font-weight: 600;
+  margin-bottom: 1rem;
+}
+
+.banner{
+  padding:1rem;
+  border-radius: 25px;
+  background:white;
+  width: 500px;
+  margin-top:1rem;
+}
+
+.contacttext::placeholder{
+  color: rgba(112,112,112, 0.5);
+  font-size: 1.3rem;
+  font-weight: 600;
+  line-height: 1.5rem;
+  vertical-align: middle;
+}
+
+.adtext{
+  opacity: 0.6;
+  font-size: 0.8rem;
+}
+
+.contactinput::placeholder{
+  color: rgba(112,112,112, 0.5);
+  font-size: 1.3rem;
+  font-weight: 600;
+}
+
+.user{
+  background-image:url('../img/user.svg');
+  background-repeat: no-repeat;
+  background-size: 25px 25px;
+  background-position: 1rem calc(27.5px - 12.5px);
+}
+
+.email{
+  background-image:url('../img/email.svg');
+  background-repeat: no-repeat;
+  background-size: 25px ;
+  background-position: 1rem calc(27.5px - 12.5px);
+}
+
+.message{
+  background-image:url('../img/pen.svg');
+  background-repeat: no-repeat;
+  background-size: 25px ;
+  background-position: 1rem calc(27.5px - 12.5px);
+  overflow-x: scroll;
+
+}
+
+
+.love{
+  color:#FF9F43;
+  font-size: 1.9rem;
+  text-align: center;
+  margin-bottom: 2rem;
+  font-weight: 600;
+}
+
+.adheader{
+  font-size: 2rem;
+  font-weight: 500;
+}
+
+
+
+.visonmobile{
+  display:none;
+}
+
+.orangelogo{
+  height:150px;
+  display: block;
+  margin: 0 auto;
+}
+
+.buynow{
+  width: 200px;
+  display: inline-block;
+  text-align: center;
+  line-height: calc(1rem + 24px);
+  vertical-align: middle;
+  background: #EE5253;
+  font-size: 1.5rem;
+  padding: 0.5rem 0;
+  color: #fff !important;
+  text-decoration: none;
+  margin:1rem 0 2rem 0;
+  margin-left: calc(50% - 100px);
+}
+
+.buynow:hover{
+  cursor: pointer;
+}
+
+.yellow{
+  background: #FF9F43;
+}
+
+.is-backedcontact{
+  background-image: url('../img/contactback.png');
+}
+
+.ans{
+  max-width: 80%;
+  margin: 0 auto;
+}
+
+.backedwait{
+  background-image: url('../img/wait.jpg');
+}
+
+.waittitle{
+  font-size: 3rem;
+  font-weight: 300;
+  color: white;
+  text-align: center !important;
+  margin:0 auto;
+}
+
+.waittitlesub{
+  font-size: 2rem;
+  font-weight: 300;
+  color: white;
+  text-align: center !important;
+  margin:0 auto;
+}
+
+
+@media only screen and (max-device-width : 1300px) {
+  .backedgraphic{
+    right:5%;
+  }
+}
+
+@media only screen and (max-device-width : 1024px) {
+  .backed{
+    background-image: url('../img/Asset 3_mobile.png');
+    background-size: cover;
+    background-repeat: no-repeat;
+  }
+
+  .backedgraphic{
+    display: none;
+  }
+
+  .header{
+    font-size:2.5rem !important;
+  }
+
+  .headertext{
+    font-size: 1.6rem !important;
+  }
+
+  .learnmore{
+    font-size: 1.2rem !important;
+    line-height: 45px;
+  }
+
+  .buttoncase{
+    height:50px;
+    text-align: center;
+    margin-bottom: 1rem;
+  }
+
+  .iphonejust{
+    height: 300px;
+    margin-left: calc(50% - 150px);
+    top:100px;
+  }
+
+  .bubble{
+    height:250px;
+    margin-left: calc(50% - 125px);
+  }
+
+  .slight{
+    padding-top:1rem !important;
+    font-size: 2.2rem !important;
+  }
+
+  .p{
+    font-size: 1.4rem !important;
+  }
+
+  .visonmobile{
+    display: flex;
+  }
+
+  .invisonmobile{
+    display: none;
+  }
+
+  .macjust{
+    height:300px;
+    margin-right: calc(50% - 150px);
+  }
+
+  .invert{
+    margin-left: calc(50% - 125px) !important;
+  }
+
+  .cleared{
+    clear:both;
+  }
+
+  .faqbox{
+    height:550px;
+  }
+
+  .pushed{
+    margin-left: 0;
+    text-align: center;
+  }
+
+  .right{
+    margin-right: 0;
+  }
+
+  .just{
+    display: inline-block;
+    margin: 0 auto !important;
+    float:none;
+    }
+
+    .left{
+      float:none;
+      text-align: center;
+      padding-bottom: 2rem;
+    }
+
+    .alignright{
+      text-align: center;
+      float:none;
+    }
+
+}

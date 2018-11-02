@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <meta charset="utf-8">
+    <meta http-equiv=”Content-Type” content=”text/html; charset=UTF-8”/>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="copyright" content="What Suits You? is owned by Conor Curley and Michael Munnelly of 2018.">
+    <meta name="description" content="What Suits You? is a website containing a selection of carefully curated quizzes that help people choose a product that fits their needs. The person looking for a product enters the homepage, selects a quiz, and after a few short clicks will be presented a product that ‘Suits them’. ">
+    <meta name="keywords" content="quiz, quizzes, what suits, what suits you, What Suits You?, find a computer, find a pair of shoes, find an insurance package, find a phone, computers, phones, insurance, quizzes, what, quiz website">
+    <meta name="DC.title" content="What Suits You?">
+    <link rel="stylesheet" href="https://use.typekit.net/evz2pch.css">
+    <link rel="canonical" href="https://whatsuitsyou.ie" />
+    <link rel="icon" href="img/tablogo.png">
+    <link rel="shortcut icon" href="img/tablogo.png" type="image/x-icon">
+    <title>Contact - What Suits You</title>
+    <link rel="stylesheet" href="css/bulma.css">
+    <link rel="stylesheet" href="css/style.css">
+    <script src="scripts/typed.js"></script>
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.13/css/all.css" integrity="sha384-DNOHZ68U8hZfKXOrtjWvjxusGo9WQnrNx2sqG0tfsghAvtVlRW3tvkXWZh58N9jp" crossorigin="anonymous">
+    <script src="scripts/jquery.visible.min.js"></script>
+    <script src="scripts/fullclip.js"></script>
+    <!-- Global site tag (gtag.js) - Google Analytics -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=UA-114335728-1"></script>
+    <script src="js/appear/jquery.appear.js">
+
+    </script>
+    <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag(){dataLayer.push(arguments);}
+      gtag('js', new Date());
+
+      gtag('config', 'UA-114335728-1');
+    </script>
+
+        </script>
+  </head>
+  <body>
+    <div class="hero is-fullheight is-backedcontact">
+      <div class="hero-body">
+        <div class="contentbox">
+          <img src="img/orangelogo.png" class="orangelogo" alt="">
+          <h2 class="quest">You have a question?</h2>
+          <h2 class="love">We'd love to hear it.</h2>
+          <input type="text" class="contactinput user" placeholder="Name">
+          <input type="text" class="contactinput email" placeholder="Email">
+          <textarea rows="5" class="contacttext message" placeholder="Message"></textarea>
+          <div class="buynow buyop1 yellow">
+            Let's Go
+          </div>
+          <div class="content">
+            <em class="ans"></em>
+          </div>
+          <div style="margin-top:1rem;">
+            <script async src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+            <!-- WSYbottomads -->
+            <ins class="adsbygoogle"
+                 style="display:block"
+                 data-ad-client="ca-pub-5251338059466199"
+                 data-ad-slot="6719038949"
+                 data-ad-format="auto"></ins>
+            <script>
+            (adsbygoogle = window.adsbygoogle || []).push({});
+            </script>
+          </div>
+        </div>
+      </div>
+    </div>
+  </body>
+
+  <script src="https://www.gstatic.com/firebasejs/5.0.4/firebase.js"></script>
+  <script src="https://www.gstatic.com/firebasejs/5.0.4/firebase-app.js"></script>
+  <script src="https://www.gstatic.com/firebasejs/5.0.4/firebase-database.js"></script>
+  <script src="https://www.gstatic.com/firebasejs/5.0.4/firebase-firestore.js"></script>
+  <script>
+  // Initialize Firebase
+  var config = {
+    apiKey: "AIzaSyAM7hcUt_6-PwQaXQ5RgEQroRQncRTYyVY",
+    authDomain: "what-suits-you.firebaseapp.com",
+    databaseURL: "https://what-suits-you.firebaseio.com",
+    projectId: "what-suits-you",
+    storageBucket: "what-suits-you.appspot.com",
+    messagingSenderId: "1041979605867"
+  };
+  firebase.initializeApp(config);
+  var db = firebase.firestore();
+  </script>
+  <script src="js/contact.js"></script>
+</html>

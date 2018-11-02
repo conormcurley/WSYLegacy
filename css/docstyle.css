@@ -1,0 +1,86 @@
+body{
+  font-family: 'proxima-soft', sans-serif;
+  max-height: 100vh;
+  overflow: hidden;
+}
+
+aside{
+  padding:2rem 1rem 0;
+  width:100%;
+  background: rgba(112,112,112, 0.05);
+  min-height: calc(100vh - 50px);
+  max-height: calc(100vh - 50px);
+  overflow-y: scroll;
+  padding-bottom: 5rem;
+}
+
+.content{
+  max-height: calc(100vh - 50px);
+  overflow-y: scroll;
+  padding-right: 1rem;
+  padding-bottom: 5rem;
+}
+
+h1{
+  margin-top: 2rem;
+}
+
+/* width */
+::-webkit-scrollbar {
+    width: 10px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+    background: #f1f1f1;
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+    background: #888;
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+    background: #555;
+}
+
+.links{
+  margin-top: 5rem;
+}
+
+.justleft{
+  float:left;
+  width:50%;
+}
+
+.justright{
+  float: right;
+  text-align: right;
+  width:50%;
+}
+
+blockquote{
+  margin-top: 1rem;
+}
+
+@media only screen and (max-device-width : 800px) {
+  body{
+    max-height: none !important;
+    /* overflow: scroll; */
+  }
+
+  aside{
+    padding:2rem 1rem 0;
+    width:100%;
+    min-height: none !important;
+    max-height: none !important;
+    padding-bottom: 5rem;
+  }
+
+  .content{
+    max-height: none !important;
+    overflow-y: scroll;
+    padding: 1rem 1rem 5rem 1rem;
+  }
+}
